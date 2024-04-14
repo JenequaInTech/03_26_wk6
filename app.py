@@ -15,3 +15,4 @@ def create_app():
     app = Flask(__name__)
     app.register_blueprint(movies_bp, url_prefix='/api')
     return app
+
